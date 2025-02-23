@@ -2,143 +2,143 @@
   "questions": [
     {
       "category": "EUROGAMES",
-      "question": "Which designer created 'Die Macher', considered the first major Eurogame in 1986?",
+      "question": "Qual designer criou 'Die Macher', considerado o primeiro grande Eurogame em 1986?",
       "options": ["Wolfgang Kramer", "Karl-Heinz Schmiel", "Klaus Teuber"],
       "correctOption": 1,
-      "funFact": "'Die Macher' by Karl-Heinz Schmiel is widely recognized as the first major Eurogame, a complex political simulation game that laid the groundwork for many modern Eurogame mechanics."
+      "funFact": "'Die Macher' de Karl-Heinz Schmiel é amplamente reconhecido como o primeiro grande Eurogame, um complexo jogo de simulação política que estabeleceu as bases para muitas mecânicas modernas de Eurogames."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game by Matt Leacock introduced the cooperative pandemic-fighting mechanic in 2008?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo de Matt Leacock introduziu a mecânica cooperativa de combate à pandemia em 2008?",
       "options": ["Flash Point", "Forbidden Desert", "Pandemic"],
       "correctOption": 2,
-      "funFact": "Pandemic's innovative cooperative gameplay revolutionized board gaming, spawning multiple expansions and inspiring countless cooperative games."
+      "funFact": "A jogabilidade cooperativa inovadora de Pandemic revolucionou os jogos de tabuleiro, gerando várias expansões e inspirando inúmeros jogos cooperativos."
     },
     {
-      "category": "GAME MECHANICS",
-      "question": "Which game popularized the worker placement mechanic in 2005?",
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a mecânica de colocação de trabalhadores em 2005?",
       "options": ["Stone Age", "Caylus", "Agricola"],
       "correctOption": 1,
-      "funFact": "Caylus by William Attia is credited with establishing the worker placement genre, influencing countless games that followed."
+      "funFact": "Caylus de William Attia é creditado por estabelecer o gênero de colocação de trabalhadores, influenciando inúmeros jogos que vieram depois."
     },
     {
       "category": "DESIGNERS",
-      "question": "Who designed the highly influential game 'Dominion', which created the deck-building genre?",
+      "question": "Quem projetou o influente jogo 'Dominion', que criou o gênero deck-building?",
       "options": ["Donald X. Vaccarino", "Richard Garfield", "Martin Wallace"],
       "correctOption": 0,
-      "funFact": "Dominion (2008) created the deck-building genre and won the Spiel des Jahres, inspiring hundreds of games using similar mechanics."
+      "funFact": "Dominion (2008) criou o gênero deck-building e ganhou o Spiel des Jahres, inspirando centenas de jogos usando mecânicas similares."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game introduced the Legacy format, where the game permanently changes as you play?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo introduziu o formato Legacy, onde o jogo muda permanentemente conforme você joga?",
       "options": ["Risk Legacy", "Pandemic Legacy", "Charterstone"],
       "correctOption": 0,
-      "funFact": "Risk Legacy (2011) by Rob Daviau revolutionized board gaming by introducing permanent changes to the game, creating the Legacy genre."
+      "funFact": "Risk Legacy (2011) de Rob Daviau revolucionou os jogos de tabuleiro ao introduzir mudanças permanentes no jogo, criando o gênero Legacy."
     },
     {
-      "category": "GAME MECHANICS",
-      "question": "Which game popularized the action selection rondel mechanic?",
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a mecânica de seleção de ações com rondel?",
       "options": ["Antike", "Imperial", "Through the Ages"],
       "correctOption": 0,
-      "funFact": "Mac Gerdts' Antike (2005) introduced the rondel mechanism, providing a unique way to select actions that influenced many subsequent designs."
+      "funFact": "Antike (2005) de Mac Gerdts introduziu o mecanismo de rondel, fornecendo uma maneira única de selecionar ações que influenciou muitos designs subsequentes."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game won both the Kennerspiel des Jahres and International Gamers Award in 2019?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo ganhou tanto o Kennerspiel des Jahres quanto o International Gamers Award em 2019?",
       "options": ["Wingspan", "Terraforming Mars", "Gloomhaven"],
       "correctOption": 0,
-      "funFact": "Wingspan by Elizabeth Hargrave brought bird enthusiasts into gaming and showed how scientific themes could create engaging gameplay."
+      "funFact": "Wingspan de Elizabeth Hargrave trouxe entusiastas de pássaros para o mundo dos jogos e mostrou como temas científicos podem criar uma jogabilidade envolvente."
     },
     {
       "category": "DESIGNERS",
-      "question": "Who designed 'Gloomhaven', the highest-rated board game on BoardGameGeek?",
+      "question": "Quem projetou 'Gloomhaven', o jogo de tabuleiro mais bem avaliado no BoardGameGeek?",
       "options": ["Isaac Childres", "Jamey Stegmaier", "Eric Lang"],
       "correctOption": 0,
-      "funFact": "Gloomhaven started as a Kickstarter project and revolutionized campaign-based games with its card-driven combat system."
+      "funFact": "Gloomhaven começou como um projeto no Kickstarter e revolucionou os jogos baseados em campanha com seu sistema de combate baseado em cartas."
     },
     {
-      "category": "GAME MECHANICS",
-      "question": "Which game introduced the bag-building mechanic?",
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo introduziu a mecânica de construção de saquinho?",
       "options": ["Orleans", "Altiplano", "The Quacks of Quedlinburg"],
       "correctOption": 0,
-      "funFact": "Orleans (2014) created the bag-building genre, combining deck-building concepts with physical token drawing."
+      "funFact": "Orleans (2014) criou o gênero de construção de saquinho, combinando conceitos de deck-building com sorteio físico de fichas."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game popularized the legacy format in cooperative games?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo popularizou o formato legacy em jogos cooperativos?",
       "options": ["Pandemic Legacy", "Gloomhaven", "Charterstone"],
       "correctOption": 0,
-      "funFact": "Pandemic Legacy: Season 1 showed how narrative and permanent changes could enhance cooperative gameplay, reaching #1 on BoardGameGeek."
+      "funFact": "Pandemic Legacy: Season 1 mostrou como a narrativa e as mudanças permanentes poderiam aprimorar a jogabilidade cooperativa, alcançando o #1 no BoardGameGeek."
     },
     {
       "category": "DESIGNERS",
-      "question": "Who created the 'Azul' series of games?",
+      "question": "Quem criou a série de jogos 'Azul'?",
       "options": ["Michael Kiesling", "Uwe Rosenberg", "Stefan Feld"],
       "correctOption": 0,
-      "funFact": "Azul won the Spiel des Jahres in 2018 and was inspired by Portuguese tiles, creating a whole series of successful abstract games."
+      "funFact": "Azul ganhou o Spiel des Jahres em 2018 e foi inspirado em azulejos portugueses, criando toda uma série de jogos abstratos bem-sucedidos."
     },
     {
-      "category": "GAME MECHANICS",
-      "question": "Which game popularized the dice worker placement mechanic?",
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a mecânica de colocação de trabalhadores com dados?",
       "options": ["Alien Frontiers", "Kingsburg", "Troyes"],
       "correctOption": 0,
-      "funFact": "Alien Frontiers (2010) combined worker placement with dice, creating a new sub-genre of worker placement games."
+      "funFact": "Alien Frontiers (2010) combinou colocação de trabalhadores com dados, criando um novo subgênero de jogos de colocação de trabalhadores."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game introduced the concept of deck-building with a modular market?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo introduziu o conceito de deck-building com um mercado modular?",
       "options": ["Dominion", "Thunderstone", "Ascension"],
       "correctOption": 0,
-      "funFact": "Dominion's modular market approach allowed for huge replayability and became a standard feature in deck-building games."
+      "funFact": "A abordagem de mercado modular de Dominion permitiu uma enorme rejogabilidade e se tornou um recurso padrão em jogos de deck-building."
     },
     {
       "category": "DESIGNERS",
-      "question": "Who designed 'Terra Mystica'?",
+      "question": "Quem projetou 'Terra Mystica'?",
       "options": ["Jens Drögemüller & Helge Ostertag", "Vital Lacerda", "Alexander Pfister"],
       "correctOption": 0,
-      "funFact": "Terra Mystica's intricate balance of mechanics and asymmetric factions influenced many subsequent heavy Euro games."
+      "funFact": "O equilíbrio intrincado de mecânicas e facções assimétricas de Terra Mystica influenciou muitos jogos Euro pesados subsequentes."
     },
     {
-      "category": "GAME MECHANICS",
-      "question": "Which game popularized the card-crafting mechanic?",
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a mecânica de criação de cartas?",
       "options": ["Mystic Vale", "Innovation", "Race for the Galaxy"],
       "correctOption": 0,
-      "funFact": "Mystic Vale's innovative card-crafting system allowed players to modify cards during play, creating a new genre of games."
+      "funFact": "O inovador sistema de criação de cartas de Mystic Vale permitiu que os jogadores modificassem cartas durante o jogo, criando um novo gênero de jogos."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game introduced the concept of dice drafting?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo introduziu o conceito de draft de dados?",
       "options": ["To Court the King", "Roll for the Galaxy", "Sagrada"],
       "correctOption": 0,
-      "funFact": "To Court the King (2006) pioneered dice drafting, influencing many modern dice games."
+      "funFact": "To Court the King (2006) foi pioneiro no draft de dados, influenciando muitos jogos modernos com dados."
     },
     {
       "category": "DESIGNERS",
-      "question": "Who designed 'Great Western Trail'?",
+      "question": "Quem projetou 'Great Western Trail'?",
       "options": ["Alexander Pfister", "Stefan Feld", "Vital Lacerda"],
       "correctOption": 0,
-      "funFact": "Alexander Pfister's Great Western Trail combined deck-building with route building in an innovative way."
+      "funFact": "Great Western Trail de Alexander Pfister combinou deck-building com construção de rotas de uma maneira inovadora."
     },
     {
-      "category": "GAME MECHANICS",
-      "question": "Which game popularized the simultaneous action selection mechanic?",
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a mecânica de seleção simultânea de ações?",
       "options": ["Race for the Galaxy", "7 Wonders", "Innovation"],
       "correctOption": 0,
-      "funFact": "Race for the Galaxy's simultaneous play mechanic reduced downtime and influenced many modern card games."
+      "funFact": "A mecânica de jogo simultâneo de Race for the Galaxy reduziu o tempo de espera e influenciou muitos jogos de cartas modernos."
     },
     {
-      "category": "MODERN CLASSICS",
-      "question": "Which game introduced the concept of tableau building with cards?",
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo introduziu o conceito de construção de tableau com cartas?",
       "options": ["San Juan", "Race for the Galaxy", "Innovation"],
       "correctOption": 0,
-      "funFact": "San Juan, derived from Puerto Rico, established many conventions for tableau-building card games."
+      "funFact": "San Juan, derivado de Puerto Rico, estabeleceu muitas convenções para jogos de cartas com construção de tableau."
     },
     {
       "category": "DESIGNERS",
-      "question": "Who designed 'A Feast for Odin'?",
+      "question": "Quem projetou 'A Feast for Odin'?",
       "options": ["Uwe Rosenberg", "Stefan Feld", "Reiner Knizia"],
       "correctOption": 0,
-      "funFact": "A Feast for Odin represents the evolution of worker placement games, featuring a massive action board with over 60 spaces."
+      "funFact": "A Feast for Odin representa a evolução dos jogos de colocação de trabalhadores, apresentando um imenso tabuleiro de ações com mais de 60 espaços."
     }
   ]
 }
