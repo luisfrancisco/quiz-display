@@ -1,0 +1,145 @@
+{
+  "questions": [
+    {
+      "category": "EUROGAMES",
+      "question": "Which designer created 'Die Macher', considered the first major Eurogame in 1986?",
+      "options": ["Wolfgang Kramer", "Karl-Heinz Schmiel", "Klaus Teuber"],
+      "correctOption": 1,
+      "funFact": "'Die Macher' by Karl-Heinz Schmiel is widely recognized as the first major Eurogame, a complex political simulation game that laid the groundwork for many modern Eurogame mechanics."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game by Matt Leacock introduced the cooperative pandemic-fighting mechanic in 2008?",
+      "options": ["Flash Point", "Forbidden Desert", "Pandemic"],
+      "correctOption": 2,
+      "funFact": "Pandemic's innovative cooperative gameplay revolutionized board gaming, spawning multiple expansions and inspiring countless cooperative games."
+    },
+    {
+      "category": "GAME MECHANICS",
+      "question": "Which game popularized the worker placement mechanic in 2005?",
+      "options": ["Stone Age", "Caylus", "Agricola"],
+      "correctOption": 1,
+      "funFact": "Caylus by William Attia is credited with establishing the worker placement genre, influencing countless games that followed."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Who designed the highly influential game 'Dominion', which created the deck-building genre?",
+      "options": ["Donald X. Vaccarino", "Richard Garfield", "Martin Wallace"],
+      "correctOption": 0,
+      "funFact": "Dominion (2008) created the deck-building genre and won the Spiel des Jahres, inspiring hundreds of games using similar mechanics."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game introduced the Legacy format, where the game permanently changes as you play?",
+      "options": ["Risk Legacy", "Pandemic Legacy", "Charterstone"],
+      "correctOption": 0,
+      "funFact": "Risk Legacy (2011) by Rob Daviau revolutionized board gaming by introducing permanent changes to the game, creating the Legacy genre."
+    },
+    {
+      "category": "GAME MECHANICS",
+      "question": "Which game popularized the action selection rondel mechanic?",
+      "options": ["Antike", "Imperial", "Through the Ages"],
+      "correctOption": 0,
+      "funFact": "Mac Gerdts' Antike (2005) introduced the rondel mechanism, providing a unique way to select actions that influenced many subsequent designs."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game won both the Kennerspiel des Jahres and International Gamers Award in 2019?",
+      "options": ["Wingspan", "Terraforming Mars", "Gloomhaven"],
+      "correctOption": 0,
+      "funFact": "Wingspan by Elizabeth Hargrave brought bird enthusiasts into gaming and showed how scientific themes could create engaging gameplay."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Who designed 'Gloomhaven', the highest-rated board game on BoardGameGeek?",
+      "options": ["Isaac Childres", "Jamey Stegmaier", "Eric Lang"],
+      "correctOption": 0,
+      "funFact": "Gloomhaven started as a Kickstarter project and revolutionized campaign-based games with its card-driven combat system."
+    },
+    {
+      "category": "GAME MECHANICS",
+      "question": "Which game introduced the bag-building mechanic?",
+      "options": ["Orleans", "Altiplano", "The Quacks of Quedlinburg"],
+      "correctOption": 0,
+      "funFact": "Orleans (2014) created the bag-building genre, combining deck-building concepts with physical token drawing."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game popularized the legacy format in cooperative games?",
+      "options": ["Pandemic Legacy", "Gloomhaven", "Charterstone"],
+      "correctOption": 0,
+      "funFact": "Pandemic Legacy: Season 1 showed how narrative and permanent changes could enhance cooperative gameplay, reaching #1 on BoardGameGeek."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Who created the 'Azul' series of games?",
+      "options": ["Michael Kiesling", "Uwe Rosenberg", "Stefan Feld"],
+      "correctOption": 0,
+      "funFact": "Azul won the Spiel des Jahres in 2018 and was inspired by Portuguese tiles, creating a whole series of successful abstract games."
+    },
+    {
+      "category": "GAME MECHANICS",
+      "question": "Which game popularized the dice worker placement mechanic?",
+      "options": ["Alien Frontiers", "Kingsburg", "Troyes"],
+      "correctOption": 0,
+      "funFact": "Alien Frontiers (2010) combined worker placement with dice, creating a new sub-genre of worker placement games."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game introduced the concept of deck-building with a modular market?",
+      "options": ["Dominion", "Thunderstone", "Ascension"],
+      "correctOption": 0,
+      "funFact": "Dominion's modular market approach allowed for huge replayability and became a standard feature in deck-building games."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Who designed 'Terra Mystica'?",
+      "options": ["Jens Drögemüller & Helge Ostertag", "Vital Lacerda", "Alexander Pfister"],
+      "correctOption": 0,
+      "funFact": "Terra Mystica's intricate balance of mechanics and asymmetric factions influenced many subsequent heavy Euro games."
+    },
+    {
+      "category": "GAME MECHANICS",
+      "question": "Which game popularized the card-crafting mechanic?",
+      "options": ["Mystic Vale", "Innovation", "Race for the Galaxy"],
+      "correctOption": 0,
+      "funFact": "Mystic Vale's innovative card-crafting system allowed players to modify cards during play, creating a new genre of games."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game introduced the concept of dice drafting?",
+      "options": ["To Court the King", "Roll for the Galaxy", "Sagrada"],
+      "correctOption": 0,
+      "funFact": "To Court the King (2006) pioneered dice drafting, influencing many modern dice games."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Who designed 'Great Western Trail'?",
+      "options": ["Alexander Pfister", "Stefan Feld", "Vital Lacerda"],
+      "correctOption": 0,
+      "funFact": "Alexander Pfister's Great Western Trail combined deck-building with route building in an innovative way."
+    },
+    {
+      "category": "GAME MECHANICS",
+      "question": "Which game popularized the simultaneous action selection mechanic?",
+      "options": ["Race for the Galaxy", "7 Wonders", "Innovation"],
+      "correctOption": 0,
+      "funFact": "Race for the Galaxy's simultaneous play mechanic reduced downtime and influenced many modern card games."
+    },
+    {
+      "category": "MODERN CLASSICS",
+      "question": "Which game introduced the concept of tableau building with cards?",
+      "options": ["San Juan", "Race for the Galaxy", "Innovation"],
+      "correctOption": 0,
+      "funFact": "San Juan, derived from Puerto Rico, established many conventions for tableau-building card games."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Who designed 'A Feast for Odin'?",
+      "options": ["Uwe Rosenberg", "Stefan Feld", "Reiner Knizia"],
+      "correctOption": 0,
+      "funFact": "A Feast for Odin represents the evolution of worker placement games, featuring a massive action board with over 60 spaces."
+    }
+  ]
+}
+
