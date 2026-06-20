@@ -1,113 +1,67 @@
 "use client"
 
-import { motion } from "framer-motion"
+/**
+ * The table surface: a faint hex-tile grid (the board-game motif) lit by a
+ * warm overhead "lamp" glow, with a touch of grain. Deliberately quiet — the
+ * colored game components on top are what should carry the energy.
+ */
 
-/* ---- Board-game glyphs ---------------------------------------------------- */
+// Pointy-top hex grid, generated once over a fixed 16:9 field and scaled to fit.
+const W = 1920
+const H = 1080
+const R = 70 // hex radius
 
-function Meeple({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} fill="currentColor">
-      <path d="M32 4c-5 0-8 3.5-8 8 0 2.4 1 4.4 2.6 5.8-3.4 1.2-7.6 2.6-12 4-3.4 1.1-5.6 2.6-5.6 5.2 0 2.4 2 4 4.6 4 2.2 0 5-.7 8-1.6-2.2 6-4.4 12.4-5.4 16.2C15 56 16.8 60 21 60c2.8 0 4.6-1.7 6-4.4L32 46l5 9.6c1.4 2.7 3.2 4.4 6 4.4 4.2 0 6-4 4.4-8.4-1-3.8-3.2-10.2-5.4-16.2 3 .9 5.8 1.6 8 1.6 2.6 0 4.6-1.6 4.6-4 0-2.6-2.2-4.1-5.6-5.2-4.4-1.4-8.6-2.8-12-4C39 16.4 40 14.4 40 12c0-4.5-3-8-8-8z" />
-    </svg>
-  )
+function hexPoints(cx: number, cy: number, r: number) {
+  const pts: string[] = []
+  for (let i = 0; i < 6; i++) {
+    const a = (Math.PI / 180) * (60 * i - 30)
+    pts.push(`${(cx + r * Math.cos(a)).toFixed(1)},${(cy + r * Math.sin(a)).toFixed(1)}`)
+  }
+  return pts.join(" ")
 }
 
-function Dice({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} fill="none">
-      <rect x="6" y="6" width="52" height="52" rx="12" stroke="currentColor" strokeWidth="4" />
-      <circle cx="20" cy="20" r="4.5" fill="currentColor" />
-      <circle cx="44" cy="20" r="4.5" fill="currentColor" />
-      <circle cx="32" cy="32" r="4.5" fill="currentColor" />
-      <circle cx="20" cy="44" r="4.5" fill="currentColor" />
-      <circle cx="44" cy="44" r="4.5" fill="currentColor" />
-    </svg>
-  )
+const HEXES: { cx: number; cy: number }[] = []
+const hStep = Math.sqrt(3) * R
+const vStep = 1.5 * R
+for (let row = -1; row * vStep < H + R; row++) {
+  for (let col = -1; col * hStep < W + R; col++) {
+    const cx = col * hStep + (row % 2 ? hStep / 2 : 0)
+    const cy = row * vStep
+    HEXES.push({ cx, cy })
+  }
 }
-
-function Hexagon({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} fill="none">
-      <path d="M32 4 56 18v28L32 60 8 46V18z" stroke="currentColor" strokeWidth="4" strokeLinejoin="round" />
-    </svg>
-  )
-}
-
-function Spade({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} fill="currentColor">
-      <path d="M32 6C24 16 10 24 10 36c0 7 5 11 11 11 3 0 5.6-1.2 7-3-1 6-3 9-6 12h20c-3-3-5-6-6-12 1.4 1.8 4 3 7 3 6 0 11-4 11-11C54 24 40 16 32 6z" />
-    </svg>
-  )
-}
-
-function Pawn({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} fill="currentColor">
-      <path d="M32 6a10 10 0 0 0-6.6 17.5C22 26 20 30 20 34c0 3.4 1.8 5.4 4.4 7.6L20 56h24l-4.4-14.4c2.6-2.2 4.4-4.2 4.4-7.6 0-4-2-8-5.4-10.5A10 10 0 0 0 32 6z" />
-    </svg>
-  )
-}
-
-const GLYPHS = [Meeple, Dice, Hexagon, Spade, Pawn]
-
-/* Deterministic layout (no Math.random) to stay SSR-safe. */
-const FLOATERS = [
-  { x: "6%", y: "16%", size: 88, glyph: 0, dur: 17, delay: 0, rot: 18 },
-  { x: "84%", y: "10%", size: 72, glyph: 1, dur: 21, delay: 1.5, rot: -22 },
-  { x: "16%", y: "72%", size: 110, glyph: 2, dur: 24, delay: 0.8, rot: 14 },
-  { x: "90%", y: "66%", size: 96, glyph: 3, dur: 19, delay: 2.2, rot: -16 },
-  { x: "73%", y: "82%", size: 64, glyph: 4, dur: 23, delay: 0.4, rot: 20 },
-  { x: "44%", y: "8%", size: 56, glyph: 1, dur: 26, delay: 1.1, rot: -12 },
-  { x: "30%", y: "40%", size: 48, glyph: 0, dur: 20, delay: 2.8, rot: 24 },
-  { x: "62%", y: "44%", size: 52, glyph: 2, dur: 22, delay: 0.2, rot: -18 },
-]
 
 export default function QuizBackground() {
   return (
-    <div className="pointer-events-none absolute inset-0 overflow-hidden">
-      {/* Base gradient wash */}
-      <div className="absolute inset-0 bg-[radial-gradient(120%_120%_at_50%_-10%,#0f4a43_0%,#0a322f_45%,#05201d_100%)]" />
+    <div className="pointer-events-none absolute inset-0 overflow-hidden bg-[#15132A]">
+      {/* Hex tile field */}
+      <svg
+        className="absolute inset-0 h-full w-full"
+        viewBox={`0 0 ${W} ${H}`}
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden
+      >
+        <g fill="none" stroke="#A57BFF" strokeWidth="1.4" opacity="0.06">
+          {HEXES.map((h, i) => (
+            <polygon key={i} points={hexPoints(h.cx, h.cy, R)} />
+          ))}
+        </g>
+      </svg>
 
-      {/* Soft lime glows */}
-      <motion.div
-        className="absolute -left-32 top-0 h-[55vh] w-[55vh] rounded-full bg-[#D0FF00]/10 blur-[120px]"
-        animate={{ opacity: [0.4, 0.7, 0.4], scale: [1, 1.1, 1] }}
-        transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute -right-24 bottom-0 h-[50vh] w-[50vh] rounded-full bg-[#36e0c4]/10 blur-[120px]"
-        animate={{ opacity: [0.5, 0.3, 0.5], scale: [1.1, 1, 1.1] }}
-        transition={{ duration: 11, repeat: Infinity, ease: "easeInOut" }}
-      />
+      {/* Warm overhead lamplight */}
+      <div className="absolute inset-0 bg-[radial-gradient(80%_60%_at_50%_-8%,rgba(255,197,61,0.16),transparent_60%)]" />
+      {/* Cool depth toward the floor */}
+      <div className="absolute inset-0 bg-[radial-gradient(120%_90%_at_50%_120%,rgba(31,199,174,0.10),transparent_55%)]" />
+      {/* Edge falloff */}
+      <div className="absolute inset-0 bg-[radial-gradient(130%_120%_at_50%_45%,transparent_50%,rgba(8,7,20,0.6)_100%)]" />
 
-      {/* Dot grid */}
-      <div
-        className="absolute inset-0 opacity-[0.06]"
-        style={{
-          backgroundImage: "radial-gradient(#D0FF00 1.5px, transparent 1.5px)",
-          backgroundSize: "42px 42px",
-        }}
-      />
-
-      {/* Floating board-game glyphs */}
-      {FLOATERS.map((f, i) => {
-        const Glyph = GLYPHS[f.glyph]
-        return (
-          <motion.div
-            key={i}
-            className="absolute text-[#D0FF00]/[0.07]"
-            style={{ left: f.x, top: f.y, width: f.size, height: f.size }}
-            animate={{ y: [0, -26, 0], rotate: [f.rot, -f.rot, f.rot] }}
-            transition={{ duration: f.dur, delay: f.delay, repeat: Infinity, ease: "easeInOut" }}
-          >
-            <Glyph className="h-full w-full" />
-          </motion.div>
-        )
-      })}
-
-      {/* Vignette */}
-      <div className="absolute inset-0 bg-[radial-gradient(120%_120%_at_50%_50%,transparent_55%,rgba(0,0,0,0.45)_100%)]" />
+      {/* Fine grain */}
+      <svg className="absolute inset-0 h-full w-full opacity-[0.04] mix-blend-overlay" aria-hidden>
+        <filter id="grain">
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" />
+        </filter>
+        <rect width="100%" height="100%" filter="url(#grain)" />
+      </svg>
     </div>
   )
 }

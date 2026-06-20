@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { motion } from "framer-motion"
+import { motion, useReducedMotion } from "framer-motion"
 
 interface TimerProps {
   duration: number
@@ -9,13 +9,17 @@ interface TimerProps {
   isRunning: boolean
 }
 
+/**
+ * A round-track countdown: one pip per second arranged in a ring, extinguishing
+ * clockwise — like the round marker creeping around a Euro-game scoring track.
+ * You can read the exact seconds left from across the hall by counting lit pips.
+ */
 export default function Timer({ duration, onComplete, isRunning }: TimerProps) {
   const [timeLeft, setTimeLeft] = useState(duration)
+  const reduce = useReducedMotion()
 
   useEffect(() => {
-    if (!isRunning) {
-      return
-    }
+    if (!isRunning) return
 
     setTimeLeft(duration)
     const timer = setInterval(() => {
@@ -32,55 +36,55 @@ export default function Timer({ duration, onComplete, isRunning }: TimerProps) {
   }, [isRunning, duration])
 
   useEffect(() => {
-    if (timeLeft === 0 && isRunning) {
-      onComplete()
-    }
+    if (timeLeft === 0 && isRunning) onComplete()
   }, [timeLeft, isRunning, onComplete])
 
-  const progress = timeLeft / duration
   const urgent = timeLeft <= 5 && timeLeft > 0
-  // green -> amber -> red as time runs out
-  const color = progress > 0.5 ? "#D0FF00" : progress > 0.25 ? "#FFC93C" : "#FF4D4D"
+  const litColor = urgent ? "#FF5C5C" : "#FFC53D"
+  const numColor = urgent ? "#FF5C5C" : "#F6EEDD"
+
+  const cx = 56
+  const cy = 56
+  const ringR = 46
+  const pips = Array.from({ length: duration })
 
   return (
     <motion.div
-      className="relative h-[clamp(7rem,11vw,11rem)] w-[clamp(7rem,11vw,11rem)]"
-      animate={urgent ? { scale: [1, 1.07, 1] } : { scale: 1 }}
-      transition={urgent ? { duration: 0.6, repeat: Infinity, ease: "easeInOut" } : { duration: 0.3 }}
+      className="relative h-[clamp(7rem,11vw,10rem)] w-[clamp(7rem,11vw,10rem)]"
+      animate={urgent && !reduce ? { scale: [1, 1.06, 1] } : { scale: 1 }}
+      transition={urgent && !reduce ? { duration: 0.6, repeat: Infinity, ease: "easeInOut" } : { duration: 0.3 }}
     >
-      <svg className="h-full w-full -rotate-90 overflow-visible" viewBox="0 0 128 128">
-        {/* Track */}
-        <circle cx="64" cy="64" r="56" stroke="#0F4C44" strokeWidth="11" fill="none" />
-        {/* Progress */}
-        <motion.circle
-          cx="64"
-          cy="64"
-          r="56"
-          fill="none"
-          stroke={color}
-          strokeWidth="11"
-          strokeLinecap="round"
-          pathLength={1}
-          initial={false}
-          animate={{ pathLength: progress }}
-          transition={{ duration: 1, ease: "linear" }}
-          style={{ filter: `drop-shadow(0 0 10px ${color})` }}
-        />
+      <svg className="h-full w-full overflow-visible" viewBox="0 0 112 112" aria-hidden>
+        {pips.map((_, i) => {
+          const lit = i < timeLeft
+          const a = (Math.PI / 180) * (-90 + i * (360 / duration))
+          const x = cx + ringR * Math.cos(a)
+          const y = cy + ringR * Math.sin(a)
+          return (
+            <circle
+              key={i}
+              cx={x}
+              cy={y}
+              r={lit ? 5 : 3.4}
+              fill={lit ? litColor : "#322F5C"}
+              style={lit ? { filter: `drop-shadow(0 0 5px ${litColor}aa)` } : undefined}
+            />
+          )
+        })}
       </svg>
+
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <motion.span
           key={timeLeft}
-          initial={{ scale: 1.35, opacity: 0.4 }}
+          initial={reduce ? false : { scale: 1.3, opacity: 0.5 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
-          className="font-black leading-none text-[clamp(2.5rem,4.5vw,4.5rem)]"
-          style={{ color, textShadow: `0 0 18px ${color}66` }}
+          transition={{ duration: 0.25, ease: "easeOut" }}
+          className="font-display font-extrabold leading-none text-[clamp(2.5rem,4.2vw,4rem)]"
+          style={{ color: numColor }}
         >
           {timeLeft}
         </motion.span>
-        <span className="mt-1 text-[0.7rem] font-bold uppercase tracking-[0.25em] text-white/40">
-          seg
-        </span>
+        <span className="-mt-0.5 font-mono text-[0.6rem] uppercase tracking-[0.35em] text-white/35">seg</span>
       </div>
     </motion.div>
   )
