@@ -11,22 +11,11 @@ const config: Config = {
   theme: {
   	extend: {
   		fontFamily: {
-  			heading: ['var(--font-bebas)', 'Oswald', 'Impact', 'sans-serif'],
-  			body: ['var(--font-dm)', 'system-ui', 'sans-serif']
+  			display: ['var(--font-display)', 'system-ui', 'sans-serif'],
+  			body: ['var(--font-body)', 'system-ui', 'sans-serif'],
+  			mono: ['var(--font-mono)', 'ui-monospace', 'monospace']
   		},
   		colors: {
-  			ink: 'hsl(200 18% 8%)',
-  			charcoal: '#16242B',
-  			surface: 'hsl(200 15% 12%)',
-  			hairline: 'hsl(200 10% 18%)',
-  			fg: 'hsl(180 10% 92%)',
-  			'fg-secondary': 'hsl(180 8% 72%)',
-  			'fg-muted': 'hsl(200 8% 48%)',
-  			teal: 'hsl(174 72% 46%)',
-  			'teal-dark': 'hsl(174 72% 38%)',
-  			lime: 'hsl(82 78% 52%)',
-  			amber: 'hsl(42 95% 55%)',
-  			danger: 'hsl(0 72% 51%)',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

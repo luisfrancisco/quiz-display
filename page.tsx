@@ -1,23 +1,27 @@
 import Quiz from "./quiz"
-import { Bebas_Neue, DM_Sans } from "next/font/google"
+import { Bricolage_Grotesque, Plus_Jakarta_Sans, Space_Mono } from "next/font/google"
 
-// Grok Games uses two families only: Bebas Neue for all headings/UI chrome
-// (always uppercase) and DM Sans for body copy.
-const bebas = Bebas_Neue({
+const display = Bricolage_Grotesque({
   subsets: ["latin"],
-  weight: "400",
-  variable: "--font-bebas",
+  weight: ["600", "700", "800"],
+  variable: "--font-display",
 })
 
-const dmSans = DM_Sans({
+const body = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  variable: "--font-dm",
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-body",
+})
+
+const mono = Space_Mono({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-mono",
 })
 
 export default function Page() {
   return (
-    <main className={`${bebas.variable} ${dmSans.variable}`}>
+    <main className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <Quiz />
     </main>
   )
