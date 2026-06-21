@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/fetch-questions.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "questions:fetch": "node scripts/fetch-questions.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
