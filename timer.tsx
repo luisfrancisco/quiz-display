@@ -10,9 +10,9 @@ interface TimerProps {
 }
 
 /**
- * A round-track countdown: one pip per second arranged in a ring, extinguishing
- * clockwise — like the round marker creeping around a Euro-game scoring track.
- * You can read the exact seconds left from across the hall by counting lit pips.
+ * Sharp, editorial countdown: a big Bebas number over a 1px hairline track that
+ * a teal bar drains across. Square corners, teal → amber → danger as time runs
+ * out — on brand, glanceable from across the hall.
  */
 export default function Timer({ duration, onComplete, isRunning }: TimerProps) {
   const [timeLeft, setTimeLeft] = useState(duration)
@@ -39,52 +39,43 @@ export default function Timer({ duration, onComplete, isRunning }: TimerProps) {
     if (timeLeft === 0 && isRunning) onComplete()
   }, [timeLeft, isRunning, onComplete])
 
+  const pct = timeLeft / duration
+  const critical = timeLeft <= 3 && timeLeft > 0
   const urgent = timeLeft <= 5 && timeLeft > 0
-  const litColor = urgent ? "#FF5C5C" : "#FFC53D"
-  const numColor = urgent ? "#FF5C5C" : "#F6EEDD"
 
-  const cx = 56
-  const cy = 56
-  const ringR = 46
-  const pips = Array.from({ length: duration })
+  const barColor = critical ? "hsl(0 72% 51%)" : urgent ? "hsl(42 95% 55%)" : "hsl(174 72% 46%)"
+  const numColor = critical ? "hsl(0 72% 51%)" : urgent ? "hsl(42 95% 55%)" : "hsl(180 10% 92%)"
 
   return (
     <motion.div
-      className="relative h-[clamp(7rem,11vw,10rem)] w-[clamp(7rem,11vw,10rem)]"
-      animate={urgent && !reduce ? { scale: [1, 1.06, 1] } : { scale: 1 }}
-      transition={urgent && !reduce ? { duration: 0.6, repeat: Infinity, ease: "easeInOut" } : { duration: 0.3 }}
+      className="flex flex-col items-end gap-[clamp(0.4rem,1vh,0.7rem)]"
+      animate={urgent && !reduce ? { opacity: [1, 0.55, 1] } : { opacity: 1 }}
+      transition={urgent && !reduce ? { duration: 0.6, repeat: Infinity, ease: "easeInOut" } : { duration: 0.2 }}
     >
-      <svg className="h-full w-full overflow-visible" viewBox="0 0 112 112" aria-hidden>
-        {pips.map((_, i) => {
-          const lit = i < timeLeft
-          const a = (Math.PI / 180) * (-90 + i * (360 / duration))
-          const x = cx + ringR * Math.cos(a)
-          const y = cy + ringR * Math.sin(a)
-          return (
-            <circle
-              key={i}
-              cx={x}
-              cy={y}
-              r={lit ? 5 : 3.4}
-              fill={lit ? litColor : "#322F5C"}
-              style={lit ? { filter: `drop-shadow(0 0 5px ${litColor}aa)` } : undefined}
-            />
-          )
-        })}
-      </svg>
-
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
+      <div className="flex items-baseline gap-2 leading-none">
+        <span className="font-heading text-[clamp(0.65rem,1vw,0.85rem)] uppercase tracking-[0.3em] text-lime">
+          tempo
+        </span>
         <motion.span
           key={timeLeft}
-          initial={reduce ? false : { scale: 1.3, opacity: 0.5 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.25, ease: "easeOut" }}
-          className="font-display font-extrabold leading-none text-[clamp(2.5rem,4.2vw,4rem)]"
+          initial={reduce ? false : { y: -8, opacity: 0.4 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.2, ease: "easeOut" }}
+          className="font-heading text-[clamp(3rem,6vw,5.5rem)] leading-[0.8]"
           style={{ color: numColor }}
         >
           {timeLeft}
         </motion.span>
-        <span className="-mt-0.5 font-mono text-[0.6rem] uppercase tracking-[0.35em] text-white/35">seg</span>
+        <span className="font-heading text-[clamp(1rem,1.6vw,1.6rem)] uppercase text-fg-muted">s</span>
+      </div>
+      <div className="h-[4px] w-[clamp(9rem,18vw,17rem)] bg-hairline">
+        <motion.div
+          className="h-full origin-left"
+          style={{ backgroundColor: barColor }}
+          initial={false}
+          animate={{ width: `${pct * 100}%` }}
+          transition={{ duration: 1, ease: "linear" }}
+        />
       </div>
     </motion.div>
   )
