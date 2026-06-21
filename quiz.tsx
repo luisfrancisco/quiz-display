@@ -41,30 +41,6 @@ function GrokLogo({ className = "" }: { className?: string }) {
   )
 }
 
-const MARQUEE_WORDS = ["TODO MUNDO SE DIVERTE", "QUIZ DE BOARD GAMES", "DIVERSÃO OFFLINE", "GROK GAMES"]
-
-function Marquee() {
-  const seq = [...MARQUEE_WORDS, ...MARQUEE_WORDS]
-  return (
-    <div className="relative z-10 overflow-hidden border-t border-hairline py-[clamp(0.5rem,1.3vh,0.9rem)]">
-      <div className="marquee-track flex w-max items-center whitespace-nowrap">
-        {[0, 1].map((copy) => (
-          <div key={copy} className="flex items-center">
-            {seq.map((word, i) => (
-              <span key={`${copy}-${i}`} className="flex items-center">
-                <span className="font-heading text-[clamp(0.85rem,1.4vw,1.2rem)] uppercase tracking-[0.2em] text-fg/25">
-                  {word}
-                </span>
-                <span className="mx-[clamp(1rem,2.5vw,2.5rem)] text-lime">✦</span>
-              </span>
-            ))}
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
-
 export default function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState<Question>(questions.questions[0])
   const [showAnswer, setShowAnswer] = useState(false)
@@ -242,12 +218,9 @@ export default function Quiz() {
         </div>
       </div>
 
-      {/* Brand marquee replaces the old footer */}
-      <Marquee />
-
-      {/* Discreet brand mark, bottom-left over the marquee gutter */}
-      <div className="pointer-events-none absolute bottom-[clamp(0.6rem,1.5vh,1rem)] left-[clamp(1.5rem,4vw,4rem)] z-20">
-        <GrokLogo className="h-[clamp(1.6rem,2.4vw,2.4rem)] w-auto opacity-80" />
+      {/* Discreet brand mark, bottom-left */}
+      <div className="pointer-events-none absolute bottom-[clamp(1.5rem,4vh,3rem)] left-[clamp(1.5rem,4vw,4rem)] z-20">
+        <GrokLogo className="h-[clamp(1.75rem,2.6vw,2.6rem)] w-auto opacity-80" />
       </div>
     </div>
   )
