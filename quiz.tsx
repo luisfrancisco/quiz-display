@@ -99,27 +99,13 @@ export default function Quiz() {
     <div className="relative flex min-h-screen flex-col overflow-hidden bg-[#15132A] font-body text-white antialiased">
       <QuizBackground />
 
-      {/* ---- Top bar: brand + round-track timer --------------------------- */}
-      <header className="relative z-10 flex items-start justify-between px-[clamp(1.5rem,4vw,4.5rem)] pt-[clamp(1.25rem,3vh,2.5rem)]">
-        <div className="flex items-center gap-3">
-          <span className="flex h-[clamp(2.75rem,3.6vw,3.75rem)] w-[clamp(2.75rem,3.6vw,3.75rem)] items-center justify-center rounded-2xl bg-[#A57BFF] shadow-[0_8px_28px_rgba(165,123,255,0.35)]">
-            <Meeple className="h-[58%] w-[58%]" color={INK} />
-          </span>
-          <div className="leading-none">
-            <p className="font-display text-[clamp(1.05rem,1.7vw,1.6rem)] font-extrabold tracking-tight text-white">
-              Diversão <span className="text-[#FFC53D]">Offline</span>
-            </p>
-            <p className="mt-1 font-mono text-[clamp(0.55rem,0.85vw,0.75rem)] uppercase tracking-[0.32em] text-white/40">
-              quiz de board games
-            </p>
-          </div>
-        </div>
-
+      {/* ---- Round-track timer (floating, top-right) ---------------------- */}
+      <div className="absolute right-[clamp(1.5rem,4vw,4.5rem)] top-[clamp(1.5rem,4vh,3rem)] z-20">
         <Timer duration={15} onComplete={handleTimerComplete} isRunning={isTimerRunning} />
-      </header>
+      </div>
 
       {/* ---- Main stage --------------------------------------------------- */}
-      <div className="relative z-10 flex flex-1 items-center justify-center px-[clamp(1.5rem,4vw,4.5rem)] py-[clamp(1rem,2.5vh,2rem)]">
+      <div className="relative z-10 flex flex-1 items-center justify-center px-[clamp(1.5rem,4vw,4.5rem)] py-[clamp(2rem,5vh,3.5rem)]">
         <div className="w-full max-w-6xl">
           <AnimatePresence mode="wait">
             {!showFunFact ? (
@@ -283,12 +269,6 @@ export default function Quiz() {
         </div>
       </div>
 
-      {/* ---- Footer ------------------------------------------------------- */}
-      <footer className="relative z-10 px-[clamp(1.5rem,4vw,4.5rem)] pb-[clamp(1rem,2.5vh,1.75rem)] text-center">
-        <p className="font-mono text-[clamp(0.6rem,0.95vw,0.85rem)] uppercase tracking-[0.32em] text-white/25">
-          teste seus conhecimentos enquanto joga
-        </p>
-      </footer>
     </div>
   )
 }
