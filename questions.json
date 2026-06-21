@@ -1,145 +1,767 @@
 {
   "questions": [
     {
-      "category": "EUROGAMES",
-      "question": "Qual designer criou 'Die Macher', considerado o primeiro grande Eurogame em 1986?",
-      "options": ["Wolfgang Kramer", "Karl-Heinz Schmiel", "Klaus Teuber"],
+      "category": "GROK GAMES",
+      "question": "Em que ano a Grok Games foi fundada?",
+      "options": ["2014", "2018", "2021"],
       "correctOption": 1,
-      "funFact": "'Die Macher' de Karl-Heinz Schmiel é amplamente reconhecido como o primeiro grande Eurogame, um complexo jogo de simulação política que estabeleceu as bases para muitas mecânicas modernas de Eurogames."
+      "funFact": "A Grok Games nasceu em 2018, da união de duas editoras brasileiras em ascensão: a Mandala Jogos e a Ludofy Creative."
     },
     {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo de Matt Leacock introduziu a mecânica cooperativa de combate à pandemia em 2008?",
-      "options": ["Flash Point", "Forbidden Desert", "Pandemic"],
-      "correctOption": 2,
-      "funFact": "A jogabilidade cooperativa inovadora de Pandemic revolucionou os jogos de tabuleiro, gerando várias expansões e inspirando inúmeros jogos cooperativos."
+      "category": "GROK GAMES",
+      "question": "Qual é o lema da Grok Games?",
+      "options": ["Todo mundo se diverte!", "A mesa é nossa", "Jogue mais, viva melhor"],
+      "correctOption": 0,
+      "funFact": "\"Todo mundo se diverte!\" (em inglês, \"Fun for Everyone\") resume a missão da Grok: criar momentos inesquecíveis ao redor da mesa."
     },
     {
-      "category": "MECÂNICAS DE JOGO",
-      "question": "Qual jogo popularizou a mecânica de colocação de trabalhadores em 2005?",
-      "options": ["Stone Age", "Caylus", "Agricola"],
+      "category": "GROK GAMES",
+      "question": "A Grok Games surgiu da fusão de quais duas editoras?",
+      "options": ["Devir e Galápagos", "Mandala Jogos e Ludofy Creative", "Conclave e PaperGames"],
       "correctOption": 1,
-      "funFact": "Caylus de William Attia é creditado por estabelecer o gênero de colocação de trabalhadores, influenciando inúmeros jogos que vieram depois."
+      "funFact": "Mandala Jogos e Ludofy Creative se uniram em 2018 e viraram as linhas editoriais da Grok: Mandala (família) e Ludofy (estratégia)."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Em qual cidade fica a sede da Grok Games?",
+      "options": ["São Paulo", "Rio de Janeiro", "Belo Horizonte"],
+      "correctOption": 0,
+      "funFact": "A Grok Games é uma das principais editoras de jogos de tabuleiro do Brasil, sediada em São Paulo."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual linha editorial da Grok é focada em jogos de estratégia?",
+      "options": ["Mandala", "Ludofy", "Grok Prime"],
+      "correctOption": 1,
+      "funFact": "A linha Ludofy é voltada à estratégia, enquanto a Mandala foca em experiências familiares — duas faces da mesma editora."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual linha editorial da Grok é voltada ao público familiar?",
+      "options": ["Ludofy", "Mandala", "Carrara"],
+      "correctOption": 1,
+      "funFact": "A Mandala Jogos é a linha família da Grok, com jogos acessíveis para jogar com todo mundo."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "A Grok Games tem alguma relação com a IA chamada 'Grok'?",
+      "options": ["Não, nenhuma", "É a divisão de jogos da IA", "São empresas parceiras"],
+      "correctOption": 0,
+      "funFact": "Nenhuma! Como a editora brinca: seus algoritmos são cartas e dados, seus modelos são os cérebros dos jogadores, e a saída é sempre diversão na mesa."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Quantos valores a Grok Games destaca em sua marca?",
+      "options": ["Três", "Quatro", "Cinco"],
+      "correctOption": 1,
+      "funFact": "São quatro valores: Diversão, Qualidade, Comunidade e Paixão."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual destes jogos de blefe e dedução é publicado pela Grok Games?",
+      "options": ["Coup", "Wingspan", "Catan"],
+      "correctOption": 0,
+      "funFact": "Coup, de Rikki Tahta, é um jogo de blefe ambientado num universo de intriga — um clássico rápido do catálogo da Grok."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual jogo de tabuleiro é baseado no famoso videogame roguelike de construção de baralho?",
+      "options": ["Slay the Spire: The Board Game", "Hades: O Jogo", "Dead Cells"],
+      "correctOption": 0,
+      "funFact": "Slay the Spire: The Board Game adapta o sucesso do estúdio Mega Crit para a mesa, mantendo a construção de baralho a cada subida da torre."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual é o jogo autoral mais conhecido associado à Grok Games?",
+      "options": ["Cartographers", "Azul", "Wingspan"],
+      "correctOption": 0,
+      "funFact": "Cartographers é o grande título de destaque, indicado ao Kennerspiel des Jahres de 2020."
+    },
+    {
+      "category": "CARTOGRAPHERS",
+      "question": "Quem é o designer brasileiro de Cartographers?",
+      "options": ["Rob Daviau", "Jordy Adan", "Reiner Knizia"],
+      "correctOption": 1,
+      "funFact": "O brasileiro Jordy Adan criou Cartographers, mostrando ao mundo a força do design nacional de jogos."
+    },
+    {
+      "category": "CARTOGRAPHERS",
+      "question": "A qual prêmio Cartographers foi indicado em 2020?",
+      "options": ["Spiel des Jahres", "Kennerspiel des Jahres", "Origins Award"],
+      "correctOption": 1,
+      "funFact": "Cartographers foi indicado ao Kennerspiel des Jahres 2020, o 'Oscar' dos jogos para jogadores experientes."
+    },
+    {
+      "category": "CARTOGRAPHERS",
+      "question": "Qual é a principal mecânica de Cartographers?",
+      "options": ["Desenhar mapas (flip-and-write)", "Construção de baralho", "Leilão"],
+      "correctOption": 0,
+      "funFact": "Em Cartographers, todos desenham seus próprios mapas em fichas conforme as cartas são reveladas — um 'flip-and-write' de exploração."
     },
     {
       "category": "DESIGNERS",
-      "question": "Quem projetou o influente jogo 'Dominion', que criou o gênero deck-building?",
-      "options": ["Donald X. Vaccarino", "Richard Garfield", "Martin Wallace"],
-      "correctOption": 0,
-      "funFact": "Dominion (2008) criou o gênero deck-building e ganhou o Spiel des Jahres, inspirando centenas de jogos usando mecânicas similares."
-    },
-    {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo introduziu o formato Legacy, onde o jogo muda permanentemente conforme você joga?",
-      "options": ["Risk Legacy", "Pandemic Legacy", "Charterstone"],
-      "correctOption": 0,
-      "funFact": "Risk Legacy (2011) de Rob Daviau revolucionou os jogos de tabuleiro ao introduzir mudanças permanentes no jogo, criando o gênero Legacy."
-    },
-    {
-      "category": "MECÂNICAS DE JOGO",
-      "question": "Qual jogo popularizou a mecânica de seleção de ações com rondel?",
-      "options": ["Antike", "Imperial", "Through the Ages"],
-      "correctOption": 0,
-      "funFact": "Antike (2005) de Mac Gerdts introduziu o mecanismo de rondel, fornecendo uma maneira única de selecionar ações que influenciou muitos designs subsequentes."
-    },
-    {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo ganhou tanto o Kennerspiel des Jahres quanto o International Gamers Award em 2019?",
-      "options": ["Wingspan", "Terraforming Mars", "Gloomhaven"],
-      "correctOption": 0,
-      "funFact": "Wingspan de Elizabeth Hargrave trouxe entusiastas de pássaros para o mundo dos jogos e mostrou como temas científicos podem criar uma jogabilidade envolvente."
-    },
-    {
-      "category": "DESIGNERS",
-      "question": "Quem projetou 'Gloomhaven', o jogo de tabuleiro mais bem avaliado no BoardGameGeek?",
-      "options": ["Isaac Childres", "Jamey Stegmaier", "Eric Lang"],
-      "correctOption": 0,
-      "funFact": "Gloomhaven começou como um projeto no Kickstarter e revolucionou os jogos baseados em campanha com seu sistema de combate baseado em cartas."
-    },
-    {
-      "category": "MECÂNICAS DE JOGO",
-      "question": "Qual jogo introduziu a mecânica de construção de saquinho?",
-      "options": ["Orleans", "Altiplano", "The Quacks of Quedlinburg"],
-      "correctOption": 0,
-      "funFact": "Orleans (2014) criou o gênero de construção de saquinho, combinando conceitos de deck-building com sorteio físico de fichas."
-    },
-    {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo popularizou o formato legacy em jogos cooperativos?",
-      "options": ["Pandemic Legacy", "Gloomhaven", "Charterstone"],
-      "correctOption": 0,
-      "funFact": "Pandemic Legacy: Season 1 mostrou como a narrativa e as mudanças permanentes poderiam aprimorar a jogabilidade cooperativa, alcançando o #1 no BoardGameGeek."
-    },
-    {
-      "category": "DESIGNERS",
-      "question": "Quem criou a série de jogos 'Azul'?",
+      "question": "Quem criou Azul, vencedor do Spiel des Jahres de 2018?",
       "options": ["Michael Kiesling", "Uwe Rosenberg", "Stefan Feld"],
       "correctOption": 0,
-      "funFact": "Azul ganhou o Spiel des Jahres em 2018 e foi inspirado em azulejos portugueses, criando toda uma série de jogos abstratos bem-sucedidos."
-    },
-    {
-      "category": "MECÂNICAS DE JOGO",
-      "question": "Qual jogo popularizou a mecânica de colocação de trabalhadores com dados?",
-      "options": ["Alien Frontiers", "Kingsburg", "Troyes"],
-      "correctOption": 0,
-      "funFact": "Alien Frontiers (2010) combinou colocação de trabalhadores com dados, criando um novo subgênero de jogos de colocação de trabalhadores."
-    },
-    {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo introduziu o conceito de deck-building com um mercado modular?",
-      "options": ["Dominion", "Thunderstone", "Ascension"],
-      "correctOption": 0,
-      "funFact": "A abordagem de mercado modular de Dominion permitiu uma enorme rejogabilidade e se tornou um recurso padrão em jogos de deck-building."
+      "funFact": "Azul, de Michael Kiesling, foi inspirado nos azulejos portugueses e deu origem a uma série inteira de jogos abstratos premiados."
     },
     {
       "category": "DESIGNERS",
-      "question": "Quem projetou 'Terra Mystica'?",
-      "options": ["Jens Drögemüller & Helge Ostertag", "Vital Lacerda", "Alexander Pfister"],
+      "question": "Quem é a designer de Wingspan?",
+      "options": ["Elizabeth Hargrave", "Jamey Stegmaier", "Inka Brand"],
       "correctOption": 0,
-      "funFact": "O equilíbrio intrincado de mecânicas e facções assimétricas de Terra Mystica influenciou muitos jogos Euro pesados subsequentes."
-    },
-    {
-      "category": "MECÂNICAS DE JOGO",
-      "question": "Qual jogo popularizou a mecânica de criação de cartas?",
-      "options": ["Mystic Vale", "Innovation", "Race for the Galaxy"],
-      "correctOption": 0,
-      "funFact": "O inovador sistema de criação de cartas de Mystic Vale permitiu que os jogadores modificassem cartas durante o jogo, criando um novo gênero de jogos."
-    },
-    {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo introduziu o conceito de draft de dados?",
-      "options": ["To Court the King", "Roll for the Galaxy", "Sagrada"],
-      "correctOption": 0,
-      "funFact": "To Court the King (2006) foi pioneiro no draft de dados, influenciando muitos jogos modernos com dados."
+      "funFact": "Elizabeth Hargrave uniu sua paixão por aves a um jogo de motor elegante, levando Wingspan ao Kennerspiel des Jahres de 2019."
     },
     {
       "category": "DESIGNERS",
-      "question": "Quem projetou 'Great Western Trail'?",
+      "question": "Quem projetou Pandemic, lançado em 2008?",
+      "options": ["Matt Leacock", "Antoine Bauza", "Vlaada Chvátil"],
+      "correctOption": 0,
+      "funFact": "Matt Leacock popularizou o jogo cooperativo moderno com Pandemic, em que os jogadores combatem doenças juntos contra o tabuleiro."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem criou Dominion, o jogo que originou o gênero deck-building?",
+      "options": ["Donald X. Vaccarino", "Richard Garfield", "Martin Wallace"],
+      "correctOption": 0,
+      "funFact": "Dominion (2008), de Donald X. Vaccarino, criou a construção de baralho e levou o Spiel des Jahres de 2009."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Catan, um dos jogos que popularizou o hobby moderno?",
+      "options": ["Klaus Teuber", "Klaus-Jürgen Wrede", "Alan R. Moon"],
+      "correctOption": 0,
+      "funFact": "Klaus Teuber lançou Catan em 1995; o jogo de troca e construção vendeu dezenas de milhões de cópias pelo mundo."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o autor de Carcassonne?",
+      "options": ["Klaus-Jürgen Wrede", "Bruno Cathala", "Reiner Knizia"],
+      "correctOption": 0,
+      "funFact": "Carcassonne, de Klaus-Jürgen Wrede, venceu o Spiel des Jahres de 2001 e consagrou a colocação de peças com meeples."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou 7 Wonders?",
+      "options": ["Antoine Bauza", "Marc André", "Phil Walker-Harding"],
+      "correctOption": 0,
+      "funFact": "Antoine Bauza usou o draft simultâneo de cartas em 7 Wonders para acomodar muitos jogadores sem tempo de espera."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem criou Ticket to Ride?",
+      "options": ["Alan R. Moon", "Klaus Teuber", "Uwe Rosenberg"],
+      "correctOption": 0,
+      "funFact": "Ticket to Ride, de Alan R. Moon, venceu o Spiel des Jahres de 2004 e virou porta de entrada para milhões de novos jogadores."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é conhecido por jogos agrícolas como Agricola e A Feast for Odin?",
+      "options": ["Uwe Rosenberg", "Stefan Feld", "Vital Lacerda"],
+      "correctOption": 0,
+      "funFact": "Uwe Rosenberg é mestre dos Euros de colheita e colocação de trabalhadores, com clássicos como Agricola, Caverna e Patchwork."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Terra Mystica?",
+      "options": ["Jens Drögemüller e Helge Ostertag", "Vital Lacerda", "Alexander Pfister"],
+      "correctOption": 0,
+      "funFact": "O equilíbrio entre 14 facções assimétricas de Terra Mystica influenciou muitos Euros pesados que vieram depois."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o designer de Scythe?",
+      "options": ["Jamey Stegmaier", "Isaac Childres", "Cole Wehrle"],
+      "correctOption": 0,
+      "funFact": "Jamey Stegmaier construiu Scythe sobre a arte alternativa de Jakub Rozalski, misturando controle de área e construção de motor."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Gloomhaven, por anos o jogo mais bem avaliado no BoardGameGeek?",
+      "options": ["Isaac Childres", "Jamey Stegmaier", "Eric Lang"],
+      "correctOption": 0,
+      "funFact": "Gloomhaven, de Isaac Childres, começou no Kickstarter e revolucionou os jogos de campanha com seu combate baseado em cartas."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem criou o jogo cooperativo Spirit Island?",
+      "options": ["R. Eric Reuss", "Matt Leacock", "Rob Daviau"],
+      "correctOption": 0,
+      "funFact": "Em Spirit Island, de R. Eric Reuss, os jogadores são espíritos da natureza que expulsam colonizadores — uma inversão temática elogiada."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Root, da editora Leder Games?",
+      "options": ["Cole Wehrle", "Vlaada Chvátil", "Bruno Cathala"],
+      "correctOption": 0,
+      "funFact": "Cole Wehrle deu a cada facção de Root regras totalmente diferentes, com a arte fofa e enganosa de Kyle Ferrin."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o autor da série Brass (Birmingham e Lancashire)?",
+      "options": ["Martin Wallace", "Mac Gerdts", "Stefan Feld"],
+      "correctOption": 0,
+      "funFact": "Martin Wallace é referência em jogos econômicos; Brass: Birmingham é frequentemente apontado como um dos melhores Euros já feitos."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Concordia?",
+      "options": ["Mac Gerdts", "Uwe Rosenberg", "Alexander Pfister"],
+      "correctOption": 0,
+      "funFact": "Mac Gerdts é famoso pelo mecanismo de rondel, e em Concordia substituiu a sorte por um motor de cartas elegante e determinístico."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem criou o party game Codenames?",
+      "options": ["Vlaada Chvátil", "Jean-Louis Roubira", "Antoine Bauza"],
+      "correctOption": 0,
+      "funFact": "Codenames, de Vlaada Chvátil, venceu o Spiel des Jahres de 2016 com seu desafio de dar pistas de uma só palavra."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Dixit, jogo de associações com belíssimas ilustrações?",
+      "options": ["Jean-Louis Roubira", "Marc André", "Thomas Sing"],
+      "correctOption": 0,
+      "funFact": "Dixit, de Jean-Louis Roubira, venceu o Spiel des Jahres de 2010 e mostrou o poder da interpretação subjetiva de imagens."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o autor de Kingdomino?",
+      "options": ["Bruno Cathala", "Klaus Teuber", "Reiner Knizia"],
+      "correctOption": 0,
+      "funFact": "Kingdomino, de Bruno Cathala, venceu o Spiel des Jahres de 2017 provando que um jogo simples pode ser premiado e profundo."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Splendor?",
+      "options": ["Marc André", "Antoine Bauza", "Phil Walker-Harding"],
+      "correctOption": 0,
+      "funFact": "Splendor, de Marc André, transformou a coleta de fichas e o motor de gemas em um dos jogos de entrada mais populares do mundo."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem criou Magic: The Gathering e King of Tokyo?",
+      "options": ["Richard Garfield", "Donald X. Vaccarino", "Eric Lang"],
+      "correctOption": 0,
+      "funFact": "Richard Garfield inventou o jogo de cartas colecionáveis com Magic (1993) e também assina o divertido King of Tokyo."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Terraforming Mars?",
+      "options": ["Jacob Fryxelius", "Jamey Stegmaier", "Vital Lacerda"],
+      "correctOption": 0,
+      "funFact": "Jacob Fryxelius criou Terraforming Mars, em que corporações competem para tornar o planeta vermelho habitável."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o autor de Great Western Trail?",
       "options": ["Alexander Pfister", "Stefan Feld", "Vital Lacerda"],
       "correctOption": 0,
-      "funFact": "Great Western Trail de Alexander Pfister combinou deck-building com construção de rotas de uma maneira inovadora."
-    },
-    {
-      "category": "MECÂNICAS DE JOGO",
-      "question": "Qual jogo popularizou a mecânica de seleção simultânea de ações?",
-      "options": ["Race for the Galaxy", "7 Wonders", "Innovation"],
-      "correctOption": 0,
-      "funFact": "A mecânica de jogo simultâneo de Race for the Galaxy reduziu o tempo de espera e influenciou muitos jogos de cartas modernos."
-    },
-    {
-      "category": "CLÁSSICOS MODERNOS",
-      "question": "Qual jogo introduziu o conceito de construção de tableau com cartas?",
-      "options": ["San Juan", "Race for the Galaxy", "Innovation"],
-      "correctOption": 0,
-      "funFact": "San Juan, derivado de Puerto Rico, estabeleceu muitas convenções para jogos de cartas com construção de tableau."
+      "funFact": "Alexander Pfister combinou construção de baralho e rotas de gado de forma inovadora em Great Western Trail."
     },
     {
       "category": "DESIGNERS",
-      "question": "Quem projetou 'A Feast for Odin'?",
+      "question": "Quem projetou The Crew, jogo cooperativo de vazas?",
+      "options": ["Thomas Sing", "Wolfgang Warsch", "Reiner Knizia"],
+      "correctOption": 0,
+      "funFact": "The Crew, de Thomas Sing, levou o Kennerspiel des Jahres de 2020 ao transformar o tradicional jogo de vazas em uma missão cooperativa."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem assina Ark Nova, um dos Euros pesados mais populares dos anos 2020?",
+      "options": ["Mathias Wigge", "Uwe Rosenberg", "Elizabeth Hargrave"],
+      "correctOption": 0,
+      "funFact": "Em Ark Nova, de Mathias Wigge, os jogadores planejam zoológicos modernos focados em conservação de espécies."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou The Quacks of Quedlinburg, sobre charlatães e seus caldeirões?",
+      "options": ["Wolfgang Warsch", "Bruno Cathala", "Antoine Bauza"],
+      "correctOption": 0,
+      "funFact": "Wolfgang Warsch popularizou a construção de saquinho em Quacks of Quedlinburg, que venceu o Kennerspiel des Jahres de 2018."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o designer de Coup, presente no catálogo da Grok?",
+      "options": ["Rikki Tahta", "Cole Wehrle", "Daniel Solis"],
+      "correctOption": 0,
+      "funFact": "Rikki Tahta criou Coup, um jogo de blefe rápido em que mentir sobre seus personagens é a chave para sobreviver."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "A dupla Wolfgang Kramer e Michael Kiesling assina qual destes jogos?",
+      "options": ["The Palaces of Carrara", "Wingspan", "Root"],
+      "correctOption": 0,
+      "funFact": "Kramer e Kiesling, dupla premiada com vários Spiel des Jahres, assinam The Palaces of Carrara, presente no catálogo da Grok."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Everdell, jogo de construção de tableau com criaturas da floresta?",
+      "options": ["James A. Wilson", "Isaac Childres", "Jamey Stegmaier"],
+      "correctOption": 0,
+      "funFact": "Everdell, de James A. Wilson, é famoso por sua árvore tridimensional e pela ambientação encantadora de animais."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "De qual país é o prêmio Spiel des Jahres?",
+      "options": ["Alemanha", "Estados Unidos", "França"],
+      "correctOption": 0,
+      "funFact": "O Spiel des Jahres é o prêmio alemão mais influente do hobby; seu selo na caixa costuma multiplicar as vendas de um jogo."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "O que significa 'Spiel des Jahres'?",
+      "options": ["Jogo do Ano", "Jogo do Século", "Melhor Estratégia"],
+      "correctOption": 0,
+      "funFact": "Spiel des Jahres significa 'Jogo do Ano' em alemão, e seu símbolo é um meeple vermelho (o Pöppel)."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual jogo venceu o Spiel des Jahres de 2022?",
+      "options": ["Cascadia", "Dorfromantik", "Sky Team"],
+      "correctOption": 0,
+      "funFact": "Cascadia, de Randy Flynn, levou o Spiel des Jahres de 2022 com seu encaixe de hexágonos e fauna do noroeste americano."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual jogo venceu o Spiel des Jahres de 2023?",
+      "options": ["Dorfromantik", "Cascadia", "Azul"],
+      "correctOption": 0,
+      "funFact": "Dorfromantik, jogo cooperativo e relaxante de paisagens, venceu o Spiel des Jahres de 2023."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "O Kennerspiel des Jahres premia jogos voltados a qual público?",
+      "options": ["Jogadores experientes", "Crianças pequenas", "Apenas dois jogadores"],
+      "correctOption": 0,
+      "funFact": "O Kennerspiel des Jahres é o ramo do prêmio dedicado a jogos mais complexos, para conhecedores do hobby."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual destes jogos venceu o Spiel des Jahres de 2018?",
+      "options": ["Azul", "Codenames", "Kingdomino"],
+      "correctOption": 0,
+      "funFact": "Azul venceu o Spiel des Jahres de 2018, consolidando o gênero abstrato bonito e acessível."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual site é a maior referência mundial de dados sobre jogos de tabuleiro?",
+      "options": ["BoardGameGeek", "MetaCritic", "IMDb"],
+      "correctOption": 0,
+      "funFact": "O BoardGameGeek (BGG) reúne avaliações, rankings e fóruns, sendo o ponto de encontro da comunidade global do hobby."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual feira alemã é a maior do mundo dedicada a jogos de tabuleiro?",
+      "options": ["Spiel, em Essen", "Gen Con", "PAX Unplugged"],
+      "correctOption": 0,
+      "funFact": "A feira Spiel, em Essen, na Alemanha, reúne centenas de milhares de visitantes e é onde muitos lançamentos estreiam."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo é creditado por estabelecer a mecânica de colocação de trabalhadores, em 2005?",
+      "options": ["Stone Age", "Caylus", "Agricola"],
+      "correctOption": 1,
+      "funFact": "Caylus, de William Attia, popularizou a colocação de trabalhadores, influenciando inúmeros Euros que vieram depois."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo introduziu o mecanismo de rondel, em 2005?",
+      "options": ["Antike", "Imperial", "Through the Ages"],
+      "correctOption": 0,
+      "funFact": "Antike, de Mac Gerdts, trouxe o rondel: uma roda de ações que dá ritmo e planejamento únicos ao jogo."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo deu origem à mecânica de construção de saquinho (bag-building)?",
+      "options": ["Orleans", "Altiplano", "The Quacks of Quedlinburg"],
+      "correctOption": 0,
+      "funFact": "Orleans (2014) combinou a ideia de construção de baralho com o sorteio físico de fichas dentro de um saquinho."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual formato faz o jogo mudar permanentemente a cada partida, introduzido por Risk Legacy?",
+      "options": ["Legacy", "Roll-and-write", "Deck-building"],
+      "correctOption": 0,
+      "funFact": "Risk Legacy (2011), de Rob Daviau, criou o gênero Legacy, em que adesivos, rasgos e cartas mudam o jogo para sempre."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual mecânica é a base de jogos como 7 Wonders e Sushi Go?",
+      "options": ["Draft de cartas", "Leilão fechado", "Movimento por dados"],
+      "correctOption": 0,
+      "funFact": "No draft, você escolhe uma carta da mão e passa o resto adiante — equilibrando o jogo e acelerando os turnos."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Flip 7 e The Quacks of Quedlinburg são exemplos de qual mecânica?",
+      "options": ["Empurre a sorte (push-your-luck)", "Colocação de trabalhadores", "Controle de área"],
+      "correctOption": 0,
+      "funFact": "No 'empurre a sorte', você decide até onde arriscar antes de estourar — a tensão de querer só mais uma carta."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual mecânica é típica de jogos como Carcassonne e Kingdomino?",
+      "options": ["Colocação de peças (tile-laying)", "Construção de baralho", "Dedução social"],
+      "correctOption": 0,
+      "funFact": "Na colocação de peças, o tabuleiro é construído pelos próprios jogadores conforme as peças vão sendo encaixadas."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Wingspan e Terraforming Mars são exemplos claros de qual mecânica?",
+      "options": ["Construção de motor (engine-building)", "Trick-taking", "Roll-and-write"],
+      "correctOption": 0,
+      "funFact": "Na construção de motor, cada peça que você adiciona faz as próximas jogadas renderem cada vez mais — um efeito bola de neve."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo levou a mecânica cooperativa de vazas (trick-taking) ao sucesso?",
+      "options": ["The Crew", "Hanabi", "Codenames"],
+      "correctOption": 0,
+      "funFact": "The Crew uniu o tradicional jogo de vazas a missões cooperativas, em que ninguém pode falar abertamente sobre as cartas."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a colocação de trabalhadores combinada com dados, em 2010?",
+      "options": ["Alien Frontiers", "Kingsburg", "Troyes"],
+      "correctOption": 0,
+      "funFact": "Alien Frontiers misturou colocação de trabalhadores com dados, criando um subgênero próprio dentro do estilo."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo popularizou a seleção simultânea de ações para reduzir o tempo de espera?",
+      "options": ["Race for the Galaxy", "7 Wonders", "Innovation"],
+      "correctOption": 0,
+      "funFact": "Race for the Galaxy faz todos agirem ao mesmo tempo, eliminando a espera entre turnos em jogos de cartas."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo introduziu a inovadora mecânica de criação de cartas (card-crafting)?",
+      "options": ["Mystic Vale", "Innovation", "Race for the Galaxy"],
+      "correctOption": 0,
+      "funFact": "Mystic Vale deixa os jogadores montarem cartas transparentes por camadas, evoluindo o próprio baralho durante a partida."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo de Matt Leacock introduziu a cooperação contra uma pandemia, em 2008?",
+      "options": ["Flash Point", "Forbidden Desert", "Pandemic"],
+      "correctOption": 2,
+      "funFact": "Pandemic revolucionou os cooperativos e gerou várias expansões, além da aclamada série Legacy."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual designer é considerado o pai do primeiro grande Eurogame, 'Die Macher' (1986)?",
+      "options": ["Wolfgang Kramer", "Karl-Heinz Schmiel", "Klaus Teuber"],
+      "correctOption": 1,
+      "funFact": "'Die Macher', de Karl-Heinz Schmiel, é uma complexa simulação política tida como o primeiro grande Eurogame da história."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo levou o formato Legacy para a experiência cooperativa, alcançando o #1 no BGG?",
+      "options": ["Pandemic Legacy: Season 1", "Gloomhaven", "Charterstone"],
+      "correctOption": 0,
+      "funFact": "Pandemic Legacy: Season 1 mostrou como narrativa e mudanças permanentes elevam um cooperativo, chegando ao topo do BoardGameGeek."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo de aves venceu o Kennerspiel des Jahres em 2019?",
+      "options": ["Wingspan", "Terraforming Mars", "Everdell"],
+      "correctOption": 0,
+      "funFact": "Wingspan trouxe entusiastas de pássaros para o hobby e provou que temas científicos podem render jogos envolventes."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Em que ano Catan foi lançado, dando início à era dos jogos modernos?",
+      "options": ["1985", "1995", "2005"],
+      "correctOption": 1,
+      "funFact": "Catan (1995) abriu as portas do hobby para milhões de pessoas e é frequentemente citado como o marco dos Eurogames."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo de Donald X. Vaccarino introduziu o mercado modular de cartas?",
+      "options": ["Dominion", "Thunderstone", "Ascension"],
+      "correctOption": 0,
+      "funFact": "O mercado modular de Dominion garante enorme variabilidade e virou padrão em quase todos os jogos de deck-building."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo, derivado de Puerto Rico, popularizou a construção de tableau com cartas?",
+      "options": ["San Juan", "Race for the Galaxy", "Innovation"],
+      "correctOption": 0,
+      "funFact": "San Juan transformou as ideias de Puerto Rico em um jogo de cartas enxuto e influente na construção de tableau."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Quem projetou Puerto Rico, um dos Euros mais influentes de todos os tempos?",
+      "options": ["Andreas Seyfarth", "Uwe Rosenberg", "Stefan Feld"],
+      "correctOption": 0,
+      "funFact": "Andreas Seyfarth criou Puerto Rico (2002), cujo sistema de seleção de papéis inspirou inúmeros jogos posteriores."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo cooperativo de R. Eric Reuss inverte o papel dos colonizadores?",
+      "options": ["Spirit Island", "Robinson Crusoe", "The Lord of the Rings"],
+      "correctOption": 0,
+      "funFact": "Em Spirit Island, você joga como espíritos da terra defendendo a ilha — uma resposta temática consciente aos jogos de colonização."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "Como é chamada a pecinha em formato de pessoa, símbolo dos jogos de tabuleiro?",
+      "options": ["Meeple", "Token", "Cubo"],
+      "correctOption": 0,
+      "funFact": "O termo 'meeple' (de 'my' + 'people') surgiu jogando Carcassonne e virou o ícone universal do hobby."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que significa a sigla 'BGG', muito usada pela comunidade?",
+      "options": ["BoardGameGeek", "Big Game Group", "Best Games Guide"],
+      "correctOption": 0,
+      "funFact": "O BoardGameGeek é o maior banco de dados e comunidade de jogos de tabuleiro do mundo."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que é um 'Eurogame'?",
+      "options": ["Jogo de estratégia com pouca sorte e interação indireta", "Jogo exclusivo da Europa", "Jogo só com dinheiro de euro"],
+      "correctOption": 0,
+      "funFact": "Eurogames priorizam estratégia, pontuação e interação indireta, em geral evitando a eliminação de jogadores e a sorte excessiva."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que caracteriza um jogo do tipo 'Ameritrash' (ou 'thematic')?",
+      "options": ["Forte tema, conflito direto e dados", "Ausência total de azar", "Apenas jogos solitários"],
+      "correctOption": 0,
+      "funFact": "Os jogos temáticos valorizam imersão, conflito direto e reviravoltas dramáticas — o oposto da contenção dos Euros."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que é um 'gateway game'?",
+      "options": ["Jogo de entrada para novos jogadores", "Jogo só para especialistas", "Jogo de azar"],
+      "correctOption": 0,
+      "funFact": "Gateways como Ticket to Ride e Azul são fáceis de ensinar e servem de porta de entrada para o hobby."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que significa 'roll-and-write'?",
+      "options": ["Rolar dados e anotar resultados em uma ficha", "Construir baralhos", "Negociar recursos"],
+      "correctOption": 0,
+      "funFact": "Em roll-and-write, como Qwixx e Welcome To, o coração do jogo é rolar (ou virar) e marcar resultados na sua folha."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que faz um 'designer' de jogos de tabuleiro?",
+      "options": ["Cria as regras e os sistemas do jogo", "Apenas ilustra as caixas", "Só fabrica os componentes"],
+      "correctOption": 0,
+      "funFact": "O designer concebe regras e mecânicas; já a arte fica a cargo do ilustrador, e a produção, da editora."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é a editora responsável por Wingspan, Scythe e Viticulture?",
+      "options": ["Stonemaier Games", "Days of Wonder", "Fantasy Flight"],
+      "correctOption": 0,
+      "funFact": "A Stonemaier Games, de Jamey Stegmaier, ficou conhecida por componentes caprichados e por popularizar o financiamento coletivo."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou Spirit of the Wild... digo, o aclamado Lost Ruins of Arnak?",
+      "options": ["A dupla Mín e Elwen", "Vital Lacerda", "Reiner Knizia"],
+      "correctOption": 0,
+      "funFact": "A dupla tcheca Mín e Elwen uniu exploração, deck-building e colocação de trabalhadores em Lost Ruins of Arnak (2020)."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Reiner Knizia é conhecido por ter projetado quantos jogos ao longo da carreira?",
+      "options": ["Centenas", "Apenas três", "Cerca de dez"],
+      "correctOption": 0,
+      "funFact": "Reiner Knizia é um dos designers mais prolíficos da história, com centenas de títulos publicados, de Tigris & Euphrates a Ra."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou o moderno Cascadia, vencedor do Spiel des Jahres 2022?",
+      "options": ["Randy Flynn", "Elizabeth Hargrave", "Bruno Cathala"],
+      "correctOption": 0,
+      "funFact": "Randy Flynn estreou com força: Cascadia uniu encaixe de hexágonos e fauna a uma elegância que conquistou o júri alemão."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Stefan Feld é conhecido por um estilo de Euro apelidado de quê?",
+      "options": ["'Salada de pontos' (point salad)", "Jogo de blefe", "Party game"],
+      "correctOption": 0,
+      "funFact": "Os jogos de Stefan Feld, como Castles of Burgundy, oferecem tantos caminhos de pontuação que ganharam o apelido de 'salada de pontos'."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Qual jogo de Klaus-Jürgen Wrede consagrou o uso de meeples?",
+      "options": ["Carcassonne", "Catan", "Carrara"],
+      "correctOption": 0,
+      "funFact": "Foi em Carcassonne que o termo 'meeple' nasceu, batizando as pecinhas que reivindicam estradas, cidades e campos."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Em jogos de 'controle de área', a vitória costuma vir de quê?",
+      "options": ["Dominar regiões do tabuleiro", "Esvaziar a própria mão", "Adivinhar palavras"],
+      "correctOption": 0,
+      "funFact": "No controle de área (como em Scythe e Root), pontuar depende de ter mais presença que os adversários em cada região."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "O que é 'set collection', presente em Ticket to Ride e Wingspan?",
+      "options": ["Juntar conjuntos de cartas ou itens", "Eliminar jogadores", "Rolar dados"],
+      "correctOption": 0,
+      "funFact": "A coleta de conjuntos recompensa quem reúne combinações certas — um dos pilares mais antigos do design de jogos."
+    },
+    {
+      "category": "MECÂNICAS DE JOGO",
+      "question": "Qual jogo é frequentemente citado como pioneiro do draft de dados?",
+      "options": ["To Court the King", "Sagrada", "Roll for the Galaxy"],
+      "correctOption": 0,
+      "funFact": "To Court the King (2006) foi pioneiro no draft de dados, ideia depois refinada por jogos como Sagrada."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem assina A Feast for Odin, um gigante da colocação de trabalhadores?",
       "options": ["Uwe Rosenberg", "Stefan Feld", "Reiner Knizia"],
       "correctOption": 0,
-      "funFact": "A Feast for Odin representa a evolução dos jogos de colocação de trabalhadores, apresentando um imenso tabuleiro de ações com mais de 60 espaços."
+      "funFact": "A Feast for Odin, de Uwe Rosenberg, traz um imenso tabuleiro de ações com mais de 60 espaços para os jogadores explorarem."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou o premiado Sagrada, sobre vitrais e dados coloridos?",
+      "options": ["Daryl Andrews e Adrian Adamescu", "Antoine Bauza", "Bruno Cathala"],
+      "correctOption": 0,
+      "funFact": "Sagrada usa o draft de dados para que cada jogador monte um belo vitral, respeitando regras de cor e número."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é o autor de Patchwork, um duelo de retalhos para dois jogadores?",
+      "options": ["Uwe Rosenberg", "Bruno Cathala", "Marc André"],
+      "correctOption": 0,
+      "funFact": "Patchwork mostrou o lado leve de Uwe Rosenberg: um quebra-cabeça econômico para dois, com peças no estilo Tetris."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Em que ano Carcassonne foi lançado, vencendo o Spiel des Jahres no ano seguinte?",
+      "options": ["2000", "2008", "1995"],
+      "correctOption": 0,
+      "funFact": "Carcassonne (2000) venceu o Spiel des Jahres de 2001 e segue até hoje como um dos gateways mais queridos do hobby."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo de exploração é conhecido por sua árvore tridimensional na mesa?",
+      "options": ["Everdell", "Wingspan", "Cascadia"],
+      "correctOption": 0,
+      "funFact": "A árvore central de Everdell é puro espetáculo, ajudando a contar a história de criaturas construindo sua cidade na floresta."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que é um jogo 'cooperativo'?",
+      "options": ["Todos jogam juntos contra o jogo", "Sempre há um vencedor único", "Não existem regras"],
+      "correctOption": 0,
+      "funFact": "Em cooperativos como Pandemic, os jogadores vencem ou perdem juntos, enfrentando os desafios impostos pelo próprio jogo."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que significa 'replayability' (rejogabilidade)?",
+      "options": ["O quanto um jogo continua interessante após muitas partidas", "O preço do jogo", "O número de peças"],
+      "correctOption": 0,
+      "funFact": "Mercados modulares, setups variáveis e facções assimétricas são truques de design para aumentar a rejogabilidade."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que é a mecânica de 'deck-building'?",
+      "options": ["Construir e melhorar o próprio baralho durante o jogo", "Comprar cartas em loja", "Embaralhar antes de começar"],
+      "correctOption": 0,
+      "funFact": "No deck-building, criado por Dominion, você começa com cartas fracas e vai melhorando seu baralho ao longo da partida."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que costuma diferenciar um jogo 'filler'?",
+      "options": ["É curto e leve, para preencher intervalos", "Dura mais de quatro horas", "Exige um mestre de jogo"],
+      "correctOption": 0,
+      "funFact": "Fillers como Sushi Go e No Thanks são rápidos e ótimos para abrir ou fechar uma noite de jogos."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem projetou o influente Power Grid (Funkenschlag)?",
+      "options": ["Friedemann Friese", "Mac Gerdts", "Alexander Pfister"],
+      "correctOption": 0,
+      "funFact": "Friedemann Friese, famoso por começar os nomes de seus jogos com 'F', criou o clássico econômico Power Grid."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Quem é conhecido pelos Euros pesados e temáticos como Vinhos e Lisboa?",
+      "options": ["Vital Lacerda", "Uwe Rosenberg", "Antoine Bauza"],
+      "correctOption": 0,
+      "funFact": "O português Vital Lacerda é referência em Euros densos e elegantes, com regras interligadas como engrenagens."
+    },
+    {
+      "category": "DESIGNERS",
+      "question": "Bruno Cathala costuma ser destaque por jogos de qual perfil?",
+      "options": ["Acessíveis e elegantes, como Kingdomino e 7 Wonders Duel", "Apenas wargames pesados", "Somente party games"],
+      "correctOption": 0,
+      "funFact": "Bruno Cathala, sozinho ou em parcerias, é mestre em jogos elegantes e acessíveis, de Kingdomino a 7 Wonders Duel."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual jogo cooperativo de aviação venceu o Kennerspiel des Jahres de 2024?",
+      "options": ["Sky Team", "The Crew", "Cascadia"],
+      "correctOption": 0,
+      "funFact": "Sky Team, para exatamente dois jogadores, levou o Kennerspiel des Jahres de 2024 ao colocar a dupla para pousar aviões em silêncio coordenado."
+    },
+    {
+      "category": "PRÊMIOS",
+      "question": "Qual destes jogos venceu o Spiel des Jahres de 2017?",
+      "options": ["Kingdomino", "Azul", "Codenames"],
+      "correctOption": 0,
+      "funFact": "Kingdomino provou que um jogo simples e rápido pode levar o maior prêmio do hobby, encaixando dominós em reinos."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo de Jamey Stegmaier é ambientado numa Europa alternativa dos anos 1920 com mechs?",
+      "options": ["Scythe", "Root", "Brass"],
+      "correctOption": 0,
+      "funFact": "Scythe nasceu das pinturas de Jakub Rozalski, que imaginavam mechs gigantes em uma Europa rural retrofuturista."
+    },
+    {
+      "category": "CLÁSSICOS MODERNOS",
+      "question": "Qual jogo é frequentemente apontado como um dos melhores Euros econômicos já feitos?",
+      "options": ["Brass: Birmingham", "Monopoly", "Jogo da Vida"],
+      "correctOption": 0,
+      "funFact": "Brass: Birmingham, de Martin Wallace, lidera há anos as listas dos melhores jogos do BoardGameGeek."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O que é um jogo de 'dedução social'?",
+      "options": ["Jogadores descobrem quem esconde um papel secreto", "Um jogo só de matemática", "Um jogo sem comunicação"],
+      "correctOption": 0,
+      "funFact": "Em jogos de dedução social, como os de impostor, a graça está em ler blefes e desconfiar dos colegas de mesa."
+    },
+    {
+      "category": "MUNDO DOS JOGOS",
+      "question": "O termo 'Ameritrash' se refere, com carinho, a jogos com qual característica?",
+      "options": ["Muito tema, miniaturas e conflito direto", "Zero componentes", "Apenas cartas numeradas"],
+      "correctOption": 0,
+      "funFact": "Apesar do nome provocativo, 'Ameritrash' é um elogio afetuoso a jogos imersivos, cheios de tema, dados e reviravoltas."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual destes títulos de festa está no catálogo da Grok Games?",
+      "options": ["Cores com Dicas", "Gloomhaven", "Terra Mystica"],
+      "correctOption": 0,
+      "funFact": "Cores com Dicas é um dos party games da Grok, feito para jogar rindo com a família e os amigos."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "Qual jogo de empurrar a sorte com cartas numeradas faz parte do catálogo da Grok?",
+      "options": ["Flip 7", "Gloomhaven", "Concordia"],
+      "correctOption": 0,
+      "funFact": "Flip 7 é um jogo rápido de empurre a sorte: vire cartas tentando juntar pontos sem repetir números e estourar."
+    },
+    {
+      "category": "GROK GAMES",
+      "question": "O luxuoso 'The Palaces of Carrara', no catálogo da Grok, é assinado por qual dupla?",
+      "options": ["Kramer e Kiesling", "Mín e Elwen", "Inka e Markus Brand"],
+      "correctOption": 0,
+      "funFact": "The Palaces of Carrara, da dupla premiada Kramer e Kiesling, é um Euro clássico de construção e economia de mármore."
     }
   ]
 }
-
